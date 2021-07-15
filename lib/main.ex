@@ -1,9 +1,11 @@
 defmodule Jugadores.Main do
-  alias Jugadores.Configuracion, as: Configuracion
-  def correr_config do
+  alias Jugadores.Registro, as: Registro
+
+  def correr_proceso do
     IO.puts("Obteniendo información de la configuración")
-    config =  Configuracion.obtener_configuracion
-    promedio_grupo =  Configuracion.obtener_promedio_grupo(config)
-    promedio_grupo
+    lista_jugadores = Registro.obtener_informacion_jugadores()
+    promedio_grupo =  Registro.calcular_promedio_grupo(lista_jugadores)
+    lista_jugadores
+    |> Enum.map(fn jugador ->  Registro.procesar_informacion_jugador(jugador, promedio_grupo) end)
   end
 end
