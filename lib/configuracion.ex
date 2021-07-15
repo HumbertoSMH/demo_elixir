@@ -17,11 +17,6 @@ defmodule Jugadores.Configuracion do
     end
   end
 
-  def obtener_promedio_grupo(lista_metas) do
-    total_meta_grupo = lista_metas |> Enum.map(fn nivel -> nivel.meta end) |> Enum.sum()
-    total_meta_grupo / length(lista_metas)
-  end
-
   @spec obtener_meta_por_nivel(String.t()) :: integer()
   def obtener_meta_por_nivel(nivel) do
     try do
