@@ -1,0 +1,20 @@
+{
+    "configuracion": [
+        {
+            "nivel" : "A",
+            "meta" : 5        
+        },
+        {
+            "nivel" : "B",
+            "meta" : 10        
+        },
+        {
+            "nivel" : "C",
+            "meta" : 15        
+        },
+        {
+            "nivel" : "Cuah",
+            "meta" : 20        
+        }
+    ]
+}
