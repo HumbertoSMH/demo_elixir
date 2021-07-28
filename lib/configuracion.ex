@@ -21,7 +21,8 @@ defmodule Jugadores.Configuracion do
   def obtener_meta_por_nivel(nivel) do
     try do
       lista_configuracion = obtener_configuracion()
-      config = lista_configuracion |> Enum.find(fn config -> String.downcase(config.nivel) == String.downcase(nivel) end)
+      config = lista_configuracion
+      |> Enum.find(fn config -> String.downcase(config.nivel) == String.downcase(nivel) end)
       if config == :nil do
         throw(nivel)
       end

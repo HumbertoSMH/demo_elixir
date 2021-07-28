@@ -63,7 +63,7 @@ defmodule Jugadores.Registro do
     end
   end
 
-  defp calcular_sueldo(sueldo_base, porcentaje_grupal,porcentaje_individual, bono) do
+  defp calcular_sueldo(sueldo_base, porcentaje_grupal, porcentaje_individual, bono) do
     avg_bono =  (porcentaje_grupal + porcentaje_individual) / 2
     bono_calculado = (bono * avg_bono)
     bono_calculado + sueldo_base
