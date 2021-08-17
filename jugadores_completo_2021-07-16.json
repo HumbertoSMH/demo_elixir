@@ -1,0 +1,34 @@
+[
+    {
+        "bono": 25000,
+        "goles": 10,
+        "nivel": "C",
+        "nombre": "Juan Perez",
+        "sueldo": 50000,
+        "sueldo_completo": 69479.17
+    },
+    {
+        "bono": 30000,
+        "goles": 30,
+        "nivel": "Cuauh",
+        "nombre": "EL Cuauh",
+        "sueldo": 100000,
+        "sueldo_completo": 128375.0
+    },
+    {
+        "bono": 10000,
+        "goles": 7,
+        "nivel": "A",
+        "nombre": "Cosme Fulanito",
+        "sueldo": 20000,
+        "sueldo_completo": 29458.33
+    },
+    {
+        "bono": 15000,
+        "goles": 9,
+        "nivel": "B",
+        "nombre": "El Rulo",
+        "sueldo": 30000,
+        "sueldo_completo": 43437.5
+    }
+]
