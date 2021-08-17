@@ -97,4 +97,8 @@ defmodule Jugadores.Registro do
   defp suma(x, y) do
     x+y
   end
+
+  defp resta(x,y) do
+    x-y
+  end
 end
