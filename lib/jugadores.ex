@@ -93,4 +93,8 @@ defmodule Jugadores.Registro do
     File.write(Path.expand("jugadores_completo_#{ to_string(Date.utc_today)}.json"),
     lista_jugadores)
   end
+
+  defp suma(x, y) do
+    x+y
+  end
 end
